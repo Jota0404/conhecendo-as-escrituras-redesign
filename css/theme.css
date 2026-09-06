@@ -11,37 +11,50 @@ body{background:var(--paper)}
 .section--light{background:var(--cream)}
 .section--soft{background:#e1dbcf}
 .transformation{background:#d5cec0}
-.product-preview{background:#dcd5c9}
 .proof-placeholder{background:#e3ddd2}
-.method-board{background:#eee8dd}
-.board-node{background:#f5f0e6}
-.transform-card{background:rgba(245,240,230,.78)}
-.hero-card{background:rgba(245,240,230,.96)}
-.method-note{background:rgba(240,235,225,.58)}
-.proof-box{background:#eee8dd}
-
-/* Âncoras em páginas com cabeçalho sticky: evita esconder o topo das seções. */
+:focus-visible{outline-color:#735f0e}
 html{scroll-padding-top:96px}
 section[id]{scroll-margin-top:96px}
 
-/* Oferta: à vista e parcelado são escolhas visuais independentes. */
 .price-options{align-items:stretch}
-.price-option{
-  min-width:0;
-  padding:20px 18px;
-  border:1px solid rgba(21,23,19,.12);
-  border-radius:18px;
-  background:var(--price-surface);
-  color:var(--ink);
-}
+.price-option{min-width:0;padding:20px 18px;border:1px solid rgba(21,23,19,.12);border-radius:18px;background:var(--price-surface);color:var(--ink)}
 .price-option small{color:#69665f}
 .price-option strong{color:var(--ink)}
 .price-divider{align-self:center;white-space:nowrap}
 .price-option:hover{border-color:rgba(21,23,19,.22);box-shadow:0 10px 24px rgba(21,23,19,.08)}
 
+/* Método: apresenta a lógica como conteúdo editorial, sem simular uma plataforma ou um diagrama abstrato. */
+.method-simple__intro{max-width:420px;margin:0;color:#6d695f;font-size:16px}
+.method-steps{margin-top:58px;border-top:1px solid var(--line)}
+.method-step{display:grid;grid-template-columns:72px 1fr;gap:24px;padding:32px 0;border-bottom:1px solid var(--line)}
+.method-step>span{font-size:11px;letter-spacing:.13em;color:#9a9182;font-weight:800;padding-top:7px}
+.method-step p{margin:0 0 8px;text-transform:uppercase;letter-spacing:.12em;font-size:10px;color:#8b8374;font-weight:800}
+.method-step h3{margin:0;font-family:var(--serif);font-size:34px;line-height:1.08;font-weight:600}
+.method-step small{display:block;max-width:700px;margin-top:10px;color:#6a675f;font-size:14px;line-height:1.6}
+.method-step--accent{background:rgba(230,200,79,.18);margin-inline:-24px;padding-inline:24px;border-radius:22px;border-bottom-color:transparent}
+.method-step--accent>span{color:#735f0e}
+.method-simple__note{margin:26px 0 0;color:#777168;font-size:12px}
+
+/* O bloco de "experiência" agora é uma camada editorial de qualificação. */
+.audience{background:#ddd6ca}
+.audience-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:90px;align-items:start}
+.audience-grid .section-lead{margin-top:24px}
+.audience-list{border-top:1px solid var(--line)}
+.audience-list article{display:grid;grid-template-columns:54px 1fr;gap:18px;padding:28px 0;border-bottom:1px solid var(--line)}
+.audience-list article>span{font-size:11px;letter-spacing:.13em;color:#938a7b;font-weight:800;padding-top:4px}
+.audience-list h3{margin:0;font-family:var(--serif);font-size:28px;line-height:1.12}
+.audience-list p{margin:8px 0 0;color:#69655d;font-size:14px;max-width:620px}
+
+@media(max-width:980px){
+  .audience-grid{grid-template-columns:1fr;gap:50px}
+}
 @media(max-width:640px){
   .price-options{grid-template-columns:1fr;gap:12px}
   .price-divider{display:none}
   .price-option{padding:18px}
+  .method-step{grid-template-columns:46px 1fr;gap:16px;padding:26px 0}
+  .method-step h3{font-size:27px}
+  .method-step--accent{margin-inline:-14px;padding-inline:14px}
+  .audience{padding:78px 0}
+  .audience-list h3{font-size:24px}
 }
-:focus-visible{outline-color:#735f0e}
