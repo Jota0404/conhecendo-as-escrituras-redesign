@@ -140,7 +140,5 @@
   // O retrato atual ainda depende de um arquivo binário definitivo no repositório.
   // Mantemos a imagem pública original como fallback até a publicação desse asset.
   const authorImage = document.querySelector('.author-photo-wrap img');
-  if (authorImage) {
-    authorImage.src = 'https://static-media.hotmart.com/XRaPfgYIupbS4tyhOiMSE3ChEKM%3D/filters%3Aquality%28100%29%3Aformat%28webp%29/klickart-prod/uploads/media/file/9912713/foto.jpg';
-  }
+  
 })();
