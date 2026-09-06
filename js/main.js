@@ -1,3 +1,2 @@
-// Base de interações do protótipo.
-// A arquitetura de conteúdo será implementada por etapas.
-// O comportamento atual é deliberadamente mínimo.
+// Interações deliberadamente mínimas no protótipo.
+// A experiência principal é conduzida pelo conteúdo, pela navegação nativa e pelos elementos HTML sem dependência de JavaScript.
