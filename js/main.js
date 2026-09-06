@@ -100,6 +100,43 @@
     mobileNav.querySelectorAll('a').forEach((link) => link.addEventListener('click', closeMenu));
   }
 
+  const method = document.querySelector('.method');
+  if (method) {
+    method.innerHTML = `
+      <div class="container method-simple">
+        <div class="section-intro">
+          <div><p class="eyebrow">Como funciona</p><h2>Uma leitura mais completa começa olhando para o que existe ao redor do texto.</h2></div>
+          <p class="method-simple__intro">A proposta combina diferentes lentes de leitura para transformar informação espalhada em uma visão mais organizada das Escrituras.</p>
+        </div>
+        <div class="method-steps">
+          <article class="method-step"><span>01</span><div><p>Contexto histórico</p><h3>Entender o que estava acontecendo.</h3><small>Tempo, cenário e circunstâncias ajudam a aproximar o leitor do mundo do texto.</small></div></article>
+          <article class="method-step"><span>02</span><div><p>Estrutura</p><h3>Perceber como a narrativa se organiza.</h3><small>Livros e acontecimentos deixam de parecer uma sequência solta quando vistos dentro de uma estrutura.</small></div></article>
+          <article class="method-step method-step--accent"><span>03</span><div><p>Relações</p><h3>Enxergar como as partes se conectam.</h3><small>As conexões entre pessoas, eventos e livros ajudam a construir uma compreensão mais ampla.</small></div></article>
+        </div>
+        <p class="method-simple__note">O curso pode ser acompanhado por quem está começando e por quem deseja recomeçar.</p>
+      </div>
+    `;
+  }
+
+  const preview = document.querySelector('.product-preview');
+  if (preview) {
+    preview.className = 'section audience';
+    preview.innerHTML = `
+      <div class="container audience-grid">
+        <div>
+          <p class="eyebrow">Para quem é</p>
+          <h2>Esta jornada pode fazer sentido para você?</h2>
+          <p class="section-lead">Uma jornada para quem quer começar, recomeçar ou compreender melhor o Antigo Testamento.</p>
+        </div>
+        <div class="audience-list">
+          <article><span>01</span><div><h3>Para quem quer começar</h3><p>Quem deseja estudar a Bíblia, mas ainda não encontrou um caminho organizado.</p></div></article>
+          <article><span>02</span><div><h3>Para quem quer recomeçar</h3><p>Quem já tentou ler sozinho e sentiu dificuldade para manter direção ou contexto.</p></div></article>
+          <article><span>03</span><div><h3>Para quem quer compreender melhor o Antigo Testamento</h3><p>Quem deseja conectar história, livros, personagens e acontecimentos em uma visão mais ampla.</p></div></article>
+        </div>
+      </div>
+    `;
+  }
+
   const authorEyebrow = document.querySelector('#autor .eyebrow');
   if (authorEyebrow) authorEyebrow.textContent = 'Sobre o autor';
 
