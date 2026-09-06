@@ -639,3 +639,28 @@ PENDÊNCIAS
 - Validar a hipótese História / Contexto / Estrutura antes de tratá-la como método oficial.
 - Definir imagem/arte visual definitiva ou direção de asset.
 - Definir conteúdo real de autoridade, prova social, oferta, garantia e condições comerciais.
+
+
+============================================================
+DECISÃO 025 — Consolidação final das Seções 1–15
+============================================================
+DECISÃO
+Consolidar a landing page demonstrativa completa sem criar novas seções, preservando a arquitetura 1–15 e reduzindo apenas redundâncias técnicas/editoriais objetivas.
+
+MOTIVO
+Com o funil completo, o objetivo passa de expansão para coerência: cada etapa deve cumprir sua função própria, a página deve terminar na decisão e nenhum conteúdo deve ser acrescentado apenas para preencher espaço.
+
+EVIDÊNCIA / HIPÓTESE
+A inspeção do main confirmou 15 elementos <section>, na ordem prevista, com as Seções 6, 7 e 8 cumprindo funções distintas de demonstração, benefícios e experiência imaginável. As Seções 9–15 fecham a jornada com identificação, consideração, confiança, síntese, oferta demonstrativa, transparência e decisão. Não existem dados reais suficientes para transformar hipóteses em funcionalidades, credenciais, provas sociais ou condições comerciais.
+
+IMPLEMENTAÇÃO
+Foi feita uma consolidação técnica sem alterar a arquitetura ou a copy estratégica das seções aprovadas. O CSS legado da antiga classe "placeholder-section", que não possui mais correspondente no HTML, foi removido. O comentário de js/main.js foi atualizado para refletir que as interações permanecem deliberadamente mínimas e que a experiência principal não depende de JavaScript. Não foram adicionadas novas seções, integrações, funcionalidades ou informações comerciais.
+
+CONFIANÇA
+Alta quanto à estrutura e à necessidade de consolidação; média quanto à copy, que continua sujeita à auditoria final e à validação do proprietário.
+
+IMPACTO
+Estabelece um estado final mais limpo e coerente para a auditoria do Revisor, preservando o funil e eliminando resíduos técnicos do estágio anterior.
+
+STATUS
+Consolidada — pronta para auditoria final.
