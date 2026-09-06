@@ -298,6 +298,31 @@ Elimina a divergência entre documentação e implementação e estabelece um es
 STATUS
 Implementada e reconciliada — pronta para nova auditoria.
 
+
+============================================================
+DECISÃO 013 — Diferenciação narrativa da Seção 4
+============================================================
+DECISÃO
+Diferenciar a Seção 4 da Seção 3: a Seção 3 apresenta o mecanismo como possibilidade; a Seção 4 transforma essa possibilidade em uma proposta de valor perceptível, enfatizando benefício, transformação percebida e experiência de estudo.
+
+MOTIVO
+A auditoria do Revisor identificou sobreposição semântica entre as duas seções, especialmente pela repetição de História, Contexto e Estrutura. A arquitetura deve ser preservada, mas a função narrativa da Seção 4 precisa avançar de possibilidade para proposta.
+
+EVIDÊNCIA
+Relatório do Chat Revisor e decisão posterior do Analista: a Seção 3 deve explicar que compreender melhor pode exigir olhar além do texto isolado; a Seção 4 deve responder principalmente “o que essa proposta proporciona?”, sem repetir a explicação do mecanismo.
+
+IMPLEMENTAÇÃO
+A headline da Seção 4 foi revisada para “Uma proposta para transformar compreensão em uma experiência de estudo mais ampla.” Os três blocos deixaram de repetir diretamente História / Contexto / Estrutura e passaram a comunicar benefícios demonstrativos: “Uma leitura mais situada”, “Relações mais perceptíveis” e “Mais clareza para estudar”. A transição foi ajustada para preparar o próximo estágio da experiência sem antecipar seu conteúdo.
+
+CONFIANÇA
+Alta quanto à necessidade de diferenciação narrativa; média quanto à redação final da copy, que continua provisória e sujeita à validação.
+
+IMPACTO
+Reduz a repetição entre as Seções 3 e 4 e reforça a progressão problema → possibilidade → proposta → próximo estágio.
+
+STATUS
+Implementada — aguardando nova auditoria.
+
 ============================================================
 ESTADO ATUAL
 ============================================================
