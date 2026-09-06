@@ -191,8 +191,6 @@
     if (faqAnswers[index]) paragraph.textContent = faqAnswers[index];
   });
 
-  const proof = document.querySelector('.proof-placeholder');
-  if (proof) proof.remove();
 
   const footerLead = document.querySelector('.brand--footer + p');
   if (footerLead) footerLead.textContent = 'Compreenda as Escrituras com mais clareza e contexto.';
