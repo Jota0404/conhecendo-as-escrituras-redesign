@@ -275,6 +275,30 @@ STATUS
 Implementada — aguardando revisão.
 
 ============================================================
+DECISÃO 012 — Reconciliação da Seção 4
+============================================================
+DECISÃO
+Alinhar a implementação da Seção 4 com a documentação, o CSS e o estado efetivo do branch main.
+
+MOTIVO
+A auditoria do Chat Revisor identificou que a documentação declarava a Seção 4 como implementada, enquanto o HTML/CSS recuperados do estado auditado ainda continham somente o placeholder da próxima etapa.
+
+EVIDÊNCIA
+Verificação direta do main confirmou a ausência da Seção 4 no HTML e a ausência de classes específicas da solução no CSS. A busca no histórico não encontrou outro commit ou branch contendo uma implementação anterior efetiva da Seção 4.
+
+IMPLEMENTAÇÃO
+A Seção 4 foi efetivamente inserida no index.html e recebeu seus estilos específicos em css/styles.css. O conteúdo segue a decisão estratégica já registrada: apresentação por benefícios, três pilares História / Contexto / Estrutura como hipótese demonstrativa, sem CTA comercial e sem informações comerciais inventadas. A documentação foi mantida coerente com o estado final e esta reconciliação foi registrada como nova decisão, preservando o histórico anterior.
+
+CONFIANÇA
+Alta quanto à reconciliação técnica; média quanto à redação e à hipótese de pilares, que permanecem sujeitas à revisão estratégica.
+
+IMPACTO
+Elimina a divergência entre documentação e implementação e estabelece um estado auditável da Seção 4 no main.
+
+STATUS
+Implementada e reconciliada — pronta para nova auditoria.
+
+============================================================
 ESTADO ATUAL
 ============================================================
 PRIMEIRO INCREMENTO
@@ -291,6 +315,9 @@ Seção 3 — Mecanismo / Desejo.
 
 QUINTO INCREMENTO
 Seção 4 — Apresentação da Solução.
+
+RECONCILIAÇÃO
+Seção 4 efetivamente presente no HTML/CSS e documentação alinhada ao estado do main.
 
 PENDÊNCIAS
 - Consolidar Design System com o Analista.
