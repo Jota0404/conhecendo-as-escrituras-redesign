@@ -1,0 +1,1 @@
+A foto do autor foi fornecida pelo usuário e deve ser publicada como asset binário quando o fluxo de upload de binário estiver disponível.
