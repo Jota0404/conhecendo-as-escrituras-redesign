@@ -251,6 +251,30 @@ STATUS
 Implementada — aguardando revisão.
 
 ============================================================
+DECISÃO 011 — Seção 4: apresentação da solução
+============================================================
+DECISÃO
+Apresentar a solução como consequência natural da sequência problema → possibilidade → solução, orientando a comunicação por benefícios em vez de uma simples lista de funcionalidades.
+
+MOTIVO
+A Seção 3 introduz a possibilidade de olhar além do texto isolado. A etapa seguinte precisa tornar essa possibilidade compreensível como proposta, sem transformar a narrativa em uma apresentação comercial prematura.
+
+EVIDÊNCIA
+Diretriz estratégica do Analista para a Seção 4 e referências de CRO/UX fornecidas no briefing: CXL sobre proposta de valor e landing pages, HubSpot sobre landing pages e Nielsen Norman Group sobre UX de páginas de produto. As referências fundamentam o princípio de clareza de valor; não são copiadas como layout.
+
+IMPLEMENTAÇÃO
+Criada seção editorial com eyebrow “A proposta”, headline orientada à transformação, texto introdutório e três pilares demonstrativos — História, Contexto e Estrutura — descritos como formas possíveis de responder às dificuldades apresentadas anteriormente. A seção não possui CTA comercial, preço, oferta, garantia, prova social ou outras informações não confirmadas.
+
+CONFIANÇA
+Alta quanto à função narrativa e à necessidade de explicitar a solução; média quanto à redação e aos três pilares, que continuam sujeitos à validação do proprietário.
+
+IMPACTO
+Transforma a possibilidade apresentada na Seção 3 em uma proposta concreta e compreensível, preparando a etapa posterior de método sem antecipar a venda.
+
+STATUS
+Implementada — aguardando revisão.
+
+============================================================
 ESTADO ATUAL
 ============================================================
 PRIMEIRO INCREMENTO
@@ -265,9 +289,13 @@ Seção 2 — Identificação do Problema.
 QUARTO INCREMENTO
 Seção 3 — Mecanismo / Desejo.
 
+QUINTO INCREMENTO
+Seção 4 — Apresentação da Solução.
+
 PENDÊNCIAS
 - Consolidar Design System com o Analista.
 - Validar copy das seções construídas com o proprietário quando aplicável.
+- Validar a hipótese História / Contexto / Estrutura antes de tratá-la como método oficial.
 - Definir imagem/arte visual definitiva ou direção de asset.
 - Implementar progressivamente as demais etapas após revisão.
 - Validar conteúdo real de autoridade, prova social, oferta, garantia e FAQ.
