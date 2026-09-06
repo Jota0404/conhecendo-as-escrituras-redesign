@@ -346,6 +346,31 @@ Acrescenta uma camada discreta de credibilidade entre solução e aprofundamento
 STATUS
 Implementada — aguardando auditoria.
 
+
+============================================================
+DECISÃO 015 — Seção 6: demonstração concreta
+============================================================
+DECISÃO
+Introduzir a primeira demonstração concreta da proposta, transformando a explicação conceitual das etapas anteriores em uma experiência visual que permita perceber como informações ao redor de um texto podem ampliar as perguntas feitas durante a leitura.
+
+MOTIVO
+Após benefício, problema, possibilidade, solução e micro-autoridade, a jornada precisava tornar o valor da proposta perceptível na prática, evitando acumular mais uma explicação abstrata.
+
+EVIDÊNCIA / HIPÓTESE
+A necessidade de uma demonstração foi definida no briefing desta etapa. A passagem escolhida — Marcos 4:35–41, Jesus acalma a tempestade — é apresentada sem citação literal de tradução e sem conclusão interpretativa fechada. As perguntas de contexto representam uma experiência conceitual do redesign, não um método oficial confirmado do produto.
+
+IMPLEMENTAÇÃO
+Criada a Seção 6 com fluxo editorial “O texto → Ao redor do texto → Novas perguntas”, usando Marcos 4:35–41 como exemplo demonstrativo. A seção mostra uma descrição breve do episódio, perguntas sobre sequência e contexto narrativo e perguntas abertas sobre como ampliar a leitura. Foi incluída a sinalização “Exemplo demonstrativo — apresentação conceitual sujeita à validação do proprietário.” Não foram adicionadas funcionalidades, metodologia oficial, resultados ou informações comerciais.
+
+CONFIANÇA
+Alta quanto à necessidade de demonstrar concretamente o valor; média quanto ao formato da experiência e à copy, que permanecem sujeitos à auditoria e validação.
+
+IMPACTO
+Transforma a proposta de um conceito explicado em uma experiência observável, preparando a jornada para aprofundamentos posteriores sem antecipar venda ou interpretação definitiva.
+
+STATUS
+Implementada — aguardando auditoria.
+
 ============================================================
 ESTADO ATUAL
 ============================================================
@@ -369,6 +394,9 @@ Seção 4 efetivamente presente no HTML/CSS e documentação alinhada ao estado 
 
 SEXTO INCREMENTO
 Seção 5 — Micro-Autoridade.
+
+SÉTIMO INCREMENTO
+Seção 6 — Demonstração concreta da proposta.
 
 PENDÊNCIAS
 - Consolidar Design System com o Analista.
