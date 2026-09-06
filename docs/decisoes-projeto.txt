@@ -298,7 +298,6 @@ Elimina a divergência entre documentação e implementação e estabelece um es
 STATUS
 Implementada e reconciliada — pronta para nova auditoria.
 
-
 ============================================================
 DECISÃO 013 — Diferenciação narrativa da Seção 4
 ============================================================
@@ -324,6 +323,30 @@ STATUS
 Implementada — aguardando nova auditoria.
 
 ============================================================
+DECISÃO 014 — Seção 5: micro-autoridade
+============================================================
+DECISÃO
+Introduzir uma camada inicial de micro-autoridade baseada em fundamentos conceituais da própria apresentação, e não em credenciais ou provas factuais não fornecidas.
+
+MOTIVO
+Após a apresentação da solução, a jornada precisa começar a reduzir dúvida e construir confiança antes das etapas posteriores de conteúdo, resultado, autoridade completa e prova social. Como o proprietário ainda não forneceu credenciais, números ou outras provas reais, a confiança deve ser construída pela clareza e pelo cuidado da proposta demonstrativa.
+
+EVIDÊNCIA / HIPÓTESE
+Não existem dados reais do proprietário disponibilizados para afirmar formação, experiência, instituições, alunos, certificações, resultados ou outras credenciais. Assim, os sinais usados na seção são hipóteses de apresentação do redesign e comunicam organização, contextualização, leitura cuidadosa e aprofundamento como direção editorial, não como características oficiais confirmadas do produto.
+
+IMPLEMENTAÇÃO
+Criada a Seção 5 com eyebrow “Por que considerar essa proposta?”, headline sobre leitura cuidadosa, texto introdutório e três sinais conceituais: “Leitura contextualizada”, “Conteúdo organizado” e “Abordagem cuidadosa”. A seção possui aviso explícito de caráter ilustrativo/demonstrativo e uma transição para a próxima etapa, sem CTA comercial, preço, oferta, garantia, depoimento, formulário ou credencial inventada.
+
+CONFIANÇA
+Alta quanto à necessidade e à função da micro-autoridade; média quanto à redação final da copy, que permanece provisória e sujeita à validação do Analista/proprietário.
+
+IMPACTO
+Acrescenta uma camada discreta de credibilidade entre solução e aprofundamento, preservando o fluxo editorial e evitando atribuir autoridade factual ainda não comprovada.
+
+STATUS
+Implementada — aguardando auditoria.
+
+============================================================
 ESTADO ATUAL
 ============================================================
 PRIMEIRO INCREMENTO
@@ -343,6 +366,9 @@ Seção 4 — Apresentação da Solução.
 
 RECONCILIAÇÃO
 Seção 4 efetivamente presente no HTML/CSS e documentação alinhada ao estado do main.
+
+SEXTO INCREMENTO
+Seção 5 — Micro-Autoridade.
 
 PENDÊNCIAS
 - Consolidar Design System com o Analista.
