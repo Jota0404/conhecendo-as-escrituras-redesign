@@ -1,0 +1,21 @@
+:root{
+  --paper:#e8e2d7;
+  --cream:#f0ebe1;
+  --muted:#67645d;
+  --line:#d2cabd;
+}
+body{background:var(--paper)}
+.site-header{background:rgba(232,226,215,.92)}
+.hero{background:radial-gradient(circle at 80% 15%,rgba(230,200,79,.20),transparent 25%),var(--paper)}
+.section--light{background:var(--cream)}
+.section--soft{background:#e1dbcf}
+.transformation{background:#d5cec0}
+.product-preview{background:#dcd5c9}
+.proof-placeholder{background:#e3ddd2}
+.method-board{background:#eee8dd}
+.board-node{background:#f5f0e6}
+.transform-card{background:rgba(245,240,230,.78)}
+.hero-card{background:rgba(245,240,230,.96)}
+.method-note{background:rgba(240,235,225,.58)}
+.proof-box{background:#eee8dd}
+:focus-visible{outline-color:#735f0e}
