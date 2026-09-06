@@ -170,16 +170,68 @@ STATUS
 Parcialmente implementada.
 
 ============================================================
-ESTADO INICIAL
+DECISÃO 008 — Hero V2: benefício como resultado principal
 ============================================================
-Repositório vazio confirmado antes da criação dos arquivos.
+DECISÃO
+Priorizar “compreender as Escrituras” como resultado desejado no Hero, com contexto como elemento complementar da proposta.
 
+MOTIVO
+A análise estratégica do Hero V1 indicou que uma proposta de valor orientada ao benefício é uma direção mais consistente para o topo da landing page do que assumir uma pergunta sobre dificuldade como headline principal.
+
+EVIDÊNCIA
+Decisão estratégica aprovada pelo Analista após a revisão do Hero V1 pelo Revisor.
+
+IMPLEMENTAÇÃO
+H1: “Compreenda as Escrituras com mais clareza e contexto.”
+Subheadline: explicação conceitual sobre história, contexto e estrutura dos textos bíblicos.
+Camada complementar: público/contexto de interesse.
+CTA mantido como “Quero conhecer a proposta”.
+
+CONFIANÇA
+Alta quanto à direção estratégica; média quanto à copy, que permanece sujeita à validação do proprietário.
+
+IMPACTO
+Torna o resultado desejado imediatamente perceptível e preserva identificação e contexto como camadas secundárias da jornada.
+
+STATUS
+Implementada — Hero V2.
+
+============================================================
+DECISÃO 009 — Acessibilidade e correções técnicas do Hero V2
+============================================================
+DECISÃO
+Garantir foco visível nos elementos interativos e tratar a marca e o elemento visual conforme sua função semântica real.
+
+MOTIVO
+A revisão anterior identificou dependência inadequada de hover para feedback de foco, uso de href="#" na marca e aria-label desnecessário no visual decorativo.
+
+EVIDÊNCIA
+Problemas técnicos objetivos apontados pelo Revisor e requisitos da tarefa Hero V2.
+
+IMPLEMENTAÇÃO
+A marca deixou de ser link quando não possui destino real; o foco usa :focus-visible com outline; o visual do livro passou a aria-hidden="true"; CTA mantém área mínima de toque adequada; foi incluído suporte a prefers-reduced-motion.
+
+CONFIANÇA
+Alta.
+
+IMPACTO
+Melhora navegação por teclado, experiência assistiva e semântica do Hero sem alterar sua estratégia.
+
+STATUS
+Implementada.
+
+============================================================
+ESTADO ATUAL
+============================================================
 PRIMEIRO INCREMENTO
 Base do projeto + Hero mobile-first.
 
+SEGUNDO INCREMENTO
+Hero V2 com benefício como resultado principal + correções de acessibilidade.
+
 PENDÊNCIAS
 - Consolidar Design System com o Analista.
-- Validar copy do Hero.
+- Validar copy do Hero com o proprietário.
 - Definir imagem/arte visual definitiva ou direção de asset.
-- Implementar progressivamente as demais etapas.
+- Implementar progressivamente as demais etapas após revisão.
 - Validar conteúdo real de autoridade, prova social, oferta, garantia e FAQ.
