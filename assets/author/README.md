@@ -1,0 +1,1 @@
+Author image source is the user-provided stage photo. The binary asset could not be committed through the available UTF-8-only file action.
