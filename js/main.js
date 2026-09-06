@@ -108,4 +108,32 @@
       if (window.innerWidth > 980) closeMenu();
     }, { passive: true });
   }
+
+  // A foto enviada pelo usuário fica incorporada ao projeto como asset estático,
+  // evitando dependência de uma URL externa do Hotmart que pode deixar de carregar.
+  const hydrateAuthorImage = async () => {
+    const image = document.querySelector('.author-photo-wrap img');
+    if (!image) return;
+
+    const chunks = [
+      'assets/author/author-01.txt',
+      'assets/author/author-02.txt'
+    ];
+
+    try {
+      const parts = await Promise.all(chunks.map(async (url) => {
+        const response = await fetch(url, { cache: 'force-cache' });
+        if (!response.ok) throw new Error(`Falha ao carregar ${url}`);
+        return response.text();
+      }));
+
+      const base64 = parts.join('').trim();
+      if (!base64.startsWith('/9j/')) throw new Error('Asset de imagem inválido');
+      image.src = `data:image/jpeg;base64,${base64}`;
+    } catch (error) {
+      console.warn('Não foi possível carregar a foto local do autor.', error);
+    }
+  };
+
+  hydrateAuthorImage();
 })();
