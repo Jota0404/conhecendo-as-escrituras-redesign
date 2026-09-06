@@ -405,3 +405,28 @@ PENDÊNCIAS
 - Definir imagem/arte visual definitiva ou direção de asset.
 - Implementar progressivamente as demais etapas após revisão.
 - Validar conteúdo real de autoridade, prova social, oferta, garantia e FAQ.
+
+============================================================
+DECISÃO 016 — Seção 7: concretização da proposta
+============================================================
+DECISÃO
+Apresentar a Seção 7 como uma etapa de concretização da proposta, convertendo a percepção gerada pela demonstração em expectativas conceituais de experiência para o visitante.
+
+MOTIVO
+Após a demonstração concreta da Seção 6, a jornada precisava avançar de “agora entendo o valor” para “agora entendo o que essa proposta pretende proporcionar”, sem repetir o mecanismo, a demonstração ou antecipar uma oferta comercial.
+
+EVIDÊNCIA / HIPÓTESE
+A necessidade de concretização foi definida no briefing desta etapa. Não há dados do proprietário que permitam afirmar funcionalidades, formatos, resultados, eficácia ou características comerciais do produto. Assim, clareza, contexto e conexão são apresentados como resultados/experiências percebidas em caráter ilustrativo, e não como promessas ou funcionalidades oficiais.
+
+IMPLEMENTAÇÃO
+Criada a Seção 7 com estrutura editorial composta por eyebrow, H2 orientada ao benefício, introdução, três resultados percebidos — “Mais clareza”, “Mais contexto” e “Mais conexão” — e uma transição textual para a etapa seguinte. A seção não possui CTA comercial e não adiciona preço, oferta, garantia, prova social ou informações factuais não fornecidas. Foi mantida a sinalização explícita de conteúdo ilustrativo/demonstrativo.
+
+CONFIANÇA
+Alta quanto à função narrativa da seção; média quanto à redação final e aos resultados percebidos, que permanecem hipóteses de comunicação sujeitas à validação.
+
+IMPACTO
+Conecta a demonstração da Seção 6 a uma expectativa mais concreta sobre a experiência proposta, preparando a jornada para a próxima etapa sem repetir o conteúdo anterior nem antecipar a decisão comercial.
+
+STATUS
+Implementada — aguardando auditoria.
+
