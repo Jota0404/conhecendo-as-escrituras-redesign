@@ -3,6 +3,7 @@
   --cream:#f0ebe1;
   --muted:#67645d;
   --line:#d2cabd;
+  --price-surface:#f4efe5;
 }
 body{background:var(--paper)}
 .site-header{background:rgba(232,226,215,.92)}
@@ -18,4 +19,29 @@ body{background:var(--paper)}
 .hero-card{background:rgba(245,240,230,.96)}
 .method-note{background:rgba(240,235,225,.58)}
 .proof-box{background:#eee8dd}
+
+/* Âncoras em páginas com cabeçalho sticky: evita esconder o topo das seções. */
+html{scroll-padding-top:96px}
+section[id]{scroll-margin-top:96px}
+
+/* Oferta: à vista e parcelado são escolhas visuais independentes. */
+.price-options{align-items:stretch}
+.price-option{
+  min-width:0;
+  padding:20px 18px;
+  border:1px solid rgba(21,23,19,.12);
+  border-radius:18px;
+  background:var(--price-surface);
+  color:var(--ink);
+}
+.price-option small{color:#69665f}
+.price-option strong{color:var(--ink)}
+.price-divider{align-self:center;white-space:nowrap}
+.price-option:hover{border-color:rgba(21,23,19,.22);box-shadow:0 10px 24px rgba(21,23,19,.08)}
+
+@media(max-width:640px){
+  .price-options{grid-template-columns:1fr;gap:12px}
+  .price-divider{display:none}
+  .price-option{padding:18px}
+}
 :focus-visible{outline-color:#735f0e}
