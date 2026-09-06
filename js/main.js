@@ -1,2 +1,5 @@
-// Interações deliberadamente mínimas no protótipo.
-// A experiência principal é conduzida pelo conteúdo, pela navegação nativa e pelos elementos HTML sem dependência de JavaScript.
+(() => {
+  'use strict';
+
+  // Interações serão adicionadas conforme cada etapa do redesign for validada.
+})();
