@@ -10,7 +10,7 @@
 
 body{background:var(--paper);color:var(--ink);line-height:1.6}
 .site-header{background:rgba(232,226,215,.94);border-bottom-color:rgba(21,23,19,.10)}
-.hero{background:radial-gradient(circle at 80% 15%,rgba(230,200,79,.18),transparent 25%),var(--paper)}
+.hero{background:var(--paper)}
 .section--light{background:var(--cream)}
 .section--soft{background:#e1dbcf}
 .transformation{background:#d5cec0}
@@ -67,30 +67,12 @@ body,.button,.desktop-nav,.hero-lead,.section-lead,.journey-result p,.outcome-ro
 .audience-list p{margin:8px 0 0;color:#656158;font-size:14px;line-height:1.6;max-width:620px}
 
 /* Identificador da foto do autor: fica dentro da imagem e deixa de parecer um botão solto. */
-.author-tag{
-  right:16px;
-  bottom:16px;
-  padding:9px 12px;
-  border-radius:8px;
-  background:var(--accent);
-  color:var(--ink);
-  font-size:8px;
-  font-weight:800;
-  letter-spacing:.11em;
-  box-shadow:0 8px 20px rgba(0,0,0,.18);
-}
+.author-tag{right:16px;bottom:16px;padding:9px 12px;border-radius:8px;background:var(--accent);color:var(--ink);font-size:8px;font-weight:800;letter-spacing:.11em;box-shadow:0 8px 20px rgba(0,0,0,.18)}
 .author-photo-wrap img{filter:saturate(.82) contrast(.96)}
 
 /* Preço: hierarquia clara entre as duas formas de pagamento. */
 .price-options{align-items:stretch}
-.price-option{
-  min-width:0;
-  padding:20px 18px;
-  border:1px solid rgba(21,23,19,.12);
-  border-radius:16px;
-  background:var(--price-surface);
-  color:var(--ink);
-}
+.price-option{min-width:0;padding:20px 18px;border:1px solid rgba(21,23,19,.12);border-radius:16px;background:var(--price-surface);color:var(--ink)}
 .price-option small{color:#69665f}
 .price-option strong{color:var(--ink)}
 .price-divider{align-self:center;white-space:nowrap}
@@ -112,6 +94,12 @@ body,.button,.desktop-nav,.hero-lead,.section-lead,.journey-result p,.outcome-ro
 
 html{scroll-padding-top:96px}
 section[id]{scroll-margin-top:96px}
+
+/* Hero simplificado: remove o elemento visual decorativo e conecta a proposta diretamente à dor. */
+.hero-grid{grid-template-columns:minmax(0,820px);gap:0}
+.hero-copy{max-width:800px}
+.hero-visual,.signal-strip{display:none}
+.hero{padding:96px 0 90px}
 
 @media(max-width:980px){
   .audience-grid{grid-template-columns:1fr;gap:50px}
