@@ -62,7 +62,7 @@ EVIDÊNCIA
 Arquitetura fornecida pelo projeto.
 
 IMPLEMENTAÇÃO
-O HTML inicial reserva a progressão conceitual; nesta etapa o Hero foi construído e as demais áreas permanecem provisórias.
+O HTML inicial reserva a progressão conceitual; nesta etapa a Seção 2 foi implementada no ponto correspondente, sem construir as etapas seguintes.
 
 CONFIANÇA
 Alta.
@@ -134,7 +134,7 @@ EVIDÊNCIA
 Diretriz de conteúdo ilustrativo do projeto.
 
 IMPLEMENTAÇÃO
-O Hero contém aviso explícito de que o texto é demonstrativo; áreas ainda não definidas também são identificadas como provisórias.
+O Hero e a Seção 2 exibem identificação explícita quando a copy é demonstrativa; não são usadas estatísticas, depoimentos ou características reais não fornecidas.
 
 CONFIANÇA
 Alta.
@@ -158,7 +158,7 @@ EVIDÊNCIA
 Diretriz de oferta do projeto.
 
 IMPLEMENTAÇÃO
-Área de oferta reservada com indicação de que os valores ainda não foram definidos.
+Área de oferta permanece reservada com indicação de que os valores ainda não foram definidos.
 
 CONFIANÇA
 Alta.
@@ -221,6 +221,54 @@ STATUS
 Implementada.
 
 ============================================================
+DECISÃO 010 — Seção 2: Identificação do problema
+============================================================
+DECISÃO
+Implementar a segunda etapa da jornada como uma seção de identificação, apresentando dificuldades reconhecíveis de compreensão das Escrituras sem transformá-las em afirmações sobre o público real.
+
+MOTIVO
+Criar a ponte narrativa entre o benefício desejado no Hero e a apresentação posterior da solução, permitindo identificação antes da oferta de resposta.
+
+EVIDÊNCIA
+Direção de UX e arquitetura fornecidas pelo Analista para a Seção 2.
+
+IMPLEMENTAÇÃO
+A seção utiliza contexto introdutório, headline sobre a dificuldade de compreensão, texto explicativo e três blocos demonstrativos: contexto histórico/cultural, conexão entre textos e passagens difíceis de interpretar. A seção termina com uma transição narrativa, sem CTA comercial.
+
+CONFIANÇA
+Alta quanto à função da seção; média quanto à copy, que permanece ilustrativa/demonstrativa e sujeita à validação do proprietário.
+
+IMPACTO
+Estabelece identificação no funil sem revelar prematuramente a solução, preservando a progressão para as etapas seguintes.
+
+STATUS
+Implementada.
+
+============================================================
+DECISÃO 011 — Header CTA direcionado à proposta
+============================================================
+DECISÃO
+Fazer o CTA do Header apontar para #solucao e manter o texto “Conheça a proposta”.
+
+MOTIVO
+O CTA superior deve acompanhar a etapa de descoberta da jornada e não direcionar diretamente para a oferta.
+
+EVIDÊNCIA
+Diretriz específica da implementação da Seção 2.
+
+IMPLEMENTAÇÃO
+O link do Header foi alterado de #oferta para #solucao, preservando o texto aprovado.
+
+CONFIANÇA
+Alta.
+
+IMPACTO
+Alinha a navegação superior com o próximo passo de descoberta do conteúdo.
+
+STATUS
+Implementada.
+
+============================================================
 ESTADO ATUAL
 ============================================================
 PRIMEIRO INCREMENTO
@@ -229,9 +277,12 @@ Base do projeto + Hero mobile-first.
 SEGUNDO INCREMENTO
 Hero V2 com benefício como resultado principal + correções de acessibilidade.
 
+TERCEIRO INCREMENTO
+Seção 2 — Identificação do problema.
+
 PENDÊNCIAS
+- Revisão do Hero/Seção 2 pelo Chat Revisor.
 - Consolidar Design System com o Analista.
-- Validar copy do Hero com o proprietário.
+- Validar copy demonstrativa com o proprietário.
 - Definir imagem/arte visual definitiva ou direção de asset.
-- Implementar progressivamente as demais etapas após revisão.
-- Validar conteúdo real de autoridade, prova social, oferta, garantia e FAQ.
+- Implementar progressivamente as demais etapas somente após as respectivas decisões.
