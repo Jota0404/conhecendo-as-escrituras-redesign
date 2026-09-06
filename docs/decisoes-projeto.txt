@@ -453,3 +453,189 @@ Aproxima a proposta da rotina imaginada de estudo, preparando a jornada para uma
 STATUS
 Implementada — aguardando auditoria.
 
+
+
+============================================================
+DECISÃO 018 — Seção 9: identificação de adequação
+============================================================
+DECISÃO
+Apresentar para quem a proposta pode fazer sentido sem inventar personas ou afirmar um público oficial.
+
+MOTIVO
+Depois da experiência imaginável da Seção 8, a jornada precisa permitir reconhecimento pessoal antes de avançar para critérios de consideração.
+
+EVIDÊNCIA / HIPÓTESE
+Não há dados do proprietário que definam segmentos, personas ou características do público real. Os perfis apresentados são situações de identificação construídas para o protótipo.
+
+IMPLEMENTAÇÃO
+Criada a Seção 9 com quatro situações de identificação, introdução e transição. O texto é explicitamente demonstrativo e evita afirmar que os perfis representam o público real do produto.
+
+CONFIANÇA
+Alta quanto à função narrativa; média quanto à copy, que permanece provisória.
+
+IMPACTO
+Converte a experiência imaginável em reconhecimento pessoal e prepara a passagem para consideração.
+
+STATUS
+Implementada — aguardando auditoria.
+
+============================================================
+DECISÃO 019 — Seção 10: critérios de consideração
+============================================================
+DECISÃO
+Apresentar critérios conceituais pelos quais a proposta pode ser considerada, sem recorrer a autoridade factual inventada.
+
+MOTIVO
+A jornada precisa avançar da identificação para uma avaliação mais racional da proposta sem repetir a micro-autoridade da Seção 5.
+
+EVIDÊNCIA / HIPÓTESE
+Não existem credenciais, números ou provas reais suficientes para sustentar autoridade factual. Clareza, cuidado contextual e transparência foram utilizados como princípios editoriais demonstrativos.
+
+IMPLEMENTAÇÃO
+Criada a Seção 10 com três critérios conceituais e transição para a prova/confiança. Nenhum critério é apresentado como certificação, credencial ou característica oficial confirmada.
+
+CONFIANÇA
+Alta quanto à necessidade de critérios de consideração; média quanto à redação.
+
+IMPACTO
+Permite avaliar a proposta pelo modo como ela é apresentada, sem fabricar autoridade.
+
+STATUS
+Implementada — aguardando auditoria.
+
+============================================================
+DECISÃO 020 — Seção 11: prova e confiança honesta
+============================================================
+DECISÃO
+Substituir prova social inexistente por uma apresentação transparente do que o próprio protótipo já consegue demonstrar.
+
+MOTIVO
+A etapa de confiança não pode ser preenchida com depoimentos, avaliações, números ou instituições fictícias.
+
+EVIDÊNCIA / HIPÓTESE
+Não foram fornecidos dados reais de prova social ou credenciais pelo proprietário. O protótipo, entretanto, já contém demonstração concreta e experiência representada nas seções anteriores.
+
+IMPLEMENTAÇÃO
+Criada a Seção 11 com três elementos demonstráveis: demonstração concreta, experiência representada e transparência do protótipo. A seção explicita que não apresenta prova social comercial.
+
+CONFIANÇA
+Alta quanto à honestidade da abordagem; média quanto à redação final.
+
+IMPACTO
+Mantém a função de confiança sem induzir o visitante a interpretar placeholders como evidência comercial.
+
+STATUS
+Implementada — aguardando auditoria.
+
+============================================================
+DECISÃO 021 — Seção 12: síntese da proposta
+============================================================
+DECISÃO
+Consolidar a proposta em uma visão única antes da área comercial, sem transformar hipóteses em especificações de produto.
+
+MOTIVO
+Depois de identificação, consideração e confiança, o visitante precisa entender claramente o que está sendo considerado antes de encontrar a oferta.
+
+EVIDÊNCIA / HIPÓTESE
+Não há informações suficientes para especificar módulos, aulas, plataforma, duração, materiais ou recursos. A síntese permanece no nível conceitual da experiência.
+
+IMPLEMENTAÇÃO
+Criada a Seção 12 com headline de síntese, três pontos editoriais e aviso demonstrativo. Nenhuma funcionalidade ou condição comercial foi inventada.
+
+CONFIANÇA
+Alta quanto à função narrativa; média quanto à copy.
+
+IMPACTO
+Reduz dispersão e prepara a passagem para a oferta.
+
+STATUS
+Implementada — aguardando auditoria.
+
+============================================================
+DECISÃO 022 — Seção 13: oferta demonstrativa
+============================================================
+DECISÃO
+Criar uma área comercial visualmente definida, mas manter condições e dados comerciais explicitamente em aberto.
+
+MOTIVO
+A jornada precisa chegar à consideração comercial sem inventar preço, desconto, prazo, garantia ou formato do produto.
+
+EVIDÊNCIA
+Decisão 007 determina que valores comerciais não estão definidos nesta etapa.
+
+IMPLEMENTAÇÃO
+Criada a Seção 13 com resumo da proposta, espaço reservado para condições futuras e CTA demonstrativo que não executa compra, cadastro ou inscrição.
+
+CONFIANÇA
+Alta.
+
+IMPACTO
+Permite testar a arquitetura da oferta sem criar falsa informação comercial.
+
+STATUS
+Implementada — aguardando auditoria.
+
+============================================================
+DECISÃO 023 — Seção 14: redução de risco por transparência
+============================================================
+DECISÃO
+Reduzir insegurança explicitando o que é demonstrativo, o que ainda não foi definido e o que não está sendo prometido.
+
+MOTIVO
+Não existe garantia comercial real fornecida pelo proprietário e não é permitido inventar política de reembolso ou promessa de satisfação.
+
+EVIDÊNCIA
+Ausência de condições comerciais e de garantia confirmadas no briefing.
+
+IMPLEMENTAÇÃO
+Criada a Seção 14 com quatro pontos de transparência: conteúdo demonstrativo, condições ainda não definidas, ausência de promessa de resultado e ausência de credenciais não comprovadas.
+
+CONFIANÇA
+Alta.
+
+IMPACTO
+Transforma lacunas inevitáveis do protótipo em transparência, reduzindo risco de interpretação enganosa.
+
+STATUS
+Implementada — aguardando auditoria.
+
+============================================================
+DECISÃO 024 — Seção 15: FAQ e decisão final
+============================================================
+DECISÃO
+Encerrar o funil com FAQ acessível e CTA demonstrativo coerente com o estado provisório do projeto.
+
+MOTIVO
+O visitante precisa de respostas objetivas antes do último passo, e a página deve terminar com uma ação clara sem simular uma integração comercial inexistente.
+
+EVIDÊNCIA / HIPÓTESE
+As perguntas foram derivadas das principais incertezas explicitamente presentes no protótipo: disponibilidade, metodologia, preço, relação com a leitura das Escrituras e natureza dos exemplos.
+
+IMPLEMENTAÇÃO
+Criada a Seção 15 com cinco itens HTML details/summary, resposta textual e CTA final apontando para a área de oferta. O CTA é identificado como demonstrativo e não realiza compra, cadastro ou inscrição.
+
+CONFIANÇA
+Alta quanto à estrutura e acessibilidade; média quanto à redação das perguntas, sujeita à validação.
+
+IMPACTO
+Fecha a jornada de consideração → decisão com transparência e uma ação final compreensível.
+
+STATUS
+Implementada — aguardando auditoria.
+
+============================================================
+ESTADO ATUAL
+============================================================
+OITAVO INCREMENTO
+Seção 8 — Experiência imaginável.
+
+NONO INCREMENTO
+Seções 9–15 — fechamento demonstrativo do funil: identificação, consideração, confiança, síntese da proposta, oferta, redução de risco e decisão final.
+
+PENDÊNCIAS
+- Auditar as Seções 9–15 com o Chat Revisor.
+- Consolidar Design System com o Analista.
+- Validar copy das seções construídas com o proprietário quando aplicável.
+- Validar a hipótese História / Contexto / Estrutura antes de tratá-la como método oficial.
+- Definir imagem/arte visual definitiva ou direção de asset.
+- Definir conteúdo real de autoridade, prova social, oferta, garantia e condições comerciais.
