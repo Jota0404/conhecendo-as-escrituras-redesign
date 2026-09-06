@@ -1,6 +1,11 @@
 (() => {
   'use strict';
 
+  const themeLink = document.createElement('link');
+  themeLink.rel = 'stylesheet';
+  themeLink.href = 'css/theme.css';
+  document.head.appendChild(themeLink);
+
   const header = document.querySelector('[data-header]');
   const internalLinks = document.querySelectorAll('a[href^="#"]');
   const detailsGroups = document.querySelectorAll('.faq-list details');
@@ -40,14 +45,14 @@
   if (desktopNav && headerInner) {
     const style = document.createElement('style');
     style.textContent = `
-      .mobile-nav-toggle { display:none; border:1px solid rgba(21,23,19,.12); background:rgba(251,248,241,.92); color:#151713; width:42px; height:42px; border-radius:12px; padding:0; align-items:center; justify-content:center; flex-direction:column; gap:4px; cursor:pointer; }
+      .mobile-nav-toggle { display:none; border:1px solid rgba(21,23,19,.12); background:rgba(240,235,225,.92); color:#151713; width:42px; height:42px; border-radius:12px; padding:0; align-items:center; justify-content:center; flex-direction:column; gap:4px; cursor:pointer; }
       .mobile-nav-toggle span { display:block; width:16px; height:1.5px; background:currentColor; transition:transform .18s ease, opacity .18s ease; }
       .mobile-nav-toggle[aria-expanded="true"] span:nth-child(1) { transform:translateY(5.5px) rotate(45deg); }
       .mobile-nav-toggle[aria-expanded="true"] span:nth-child(2) { opacity:0; }
       .mobile-nav-toggle[aria-expanded="true"] span:nth-child(3) { transform:translateY(-5.5px) rotate(-45deg); }
-      .mobile-nav { display:none; position:absolute; left:14px; right:14px; top:calc(100% + 8px); padding:10px; background:#fbf8f1; border:1px solid rgba(21,23,19,.10); border-radius:18px; box-shadow:0 18px 50px rgba(21,23,19,.14); }
+      .mobile-nav { display:none; position:absolute; left:14px; right:14px; top:calc(100% + 8px); padding:10px; background:#f0ebe1; border:1px solid rgba(21,23,19,.10); border-radius:18px; box-shadow:0 18px 50px rgba(21,23,19,.14); }
       .mobile-nav a { display:block; padding:13px 14px; border-radius:12px; font-size:14px; font-weight:600; color:#4f4d47; }
-      .mobile-nav a:hover, .mobile-nav a:focus-visible { background:#f0ebe2; color:#151713; outline:none; }
+      .mobile-nav a:hover, .mobile-nav a:focus-visible { background:#e1dbcf; color:#151713; outline:none; }
       .mobile-nav .mobile-nav__cta { margin-top:6px; background:#e6c84f; color:#151713; text-align:center; }
       .mobile-nav.is-open { display:block; }
       .site-header { position:sticky; }
