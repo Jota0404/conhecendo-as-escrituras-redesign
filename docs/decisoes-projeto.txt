@@ -237,7 +237,6 @@ Direção estratégica aprovada pelo Analista: “Compreender o texto pode exigi
 
 HIPÓTESE
 História, Contexto e Estrutura são uma hipótese de apresentação para este protótipo. Não foram tratados como método oficial, módulos ou características confirmadas do produto.
-
 IMPLEMENTAÇÃO
 Criada uma seção editorial com headline sobre olhar além do texto isolado, explicação breve, três dimensões — História, Contexto e Estrutura — e uma frase de transição. O bloco identifica explicitamente seu caráter ilustrativo/demonstrativo.
 
@@ -426,6 +425,30 @@ Alta quanto à função narrativa da seção; média quanto à redação final e
 
 IMPACTO
 Conecta a demonstração da Seção 6 a uma expectativa mais concreta sobre a experiência proposta, preparando a jornada para a próxima etapa sem repetir o conteúdo anterior nem antecipar a decisão comercial.
+
+STATUS
+Implementada — aguardando auditoria.
+
+============================================================
+DECISÃO 017 — Seção 8: experiência imaginável
+============================================================
+DECISÃO
+Transformar a proposta já compreendida nas etapas anteriores em uma experiência de estudo imaginável, sem apresentar funcionalidades ou características comerciais como fatos.
+
+MOTIVO
+Após a Seção 7, o visitante já percorreu problema, possibilidade, solução, demonstração e benefícios. A próxima progressão narrativa precisa reduzir a distância entre “entendi o valor” e “consigo imaginar isso no meu momento de estudo”, sem repetir o mecanismo, a demonstração de Marcos 4 ou os benefícios anteriores como abstrações.
+
+EVIDÊNCIA / HIPÓTESE
+A função da Seção 8 foi definida pelo briefing desta etapa como uma ponte entre benefício e experiência. Não há informações do proprietário que confirmem plataforma, telas, aulas, módulos, recursos, funcionalidades, resultados ou qualquer formato específico de produto. Portanto, a sequência “Escolher uma passagem → Observar → Explorar → Compreender” é exclusivamente uma hipótese de experiência demonstrativa.
+
+IMPLEMENTAÇÃO
+Criada a Seção 8 com eyebrow orientado à experiência de estudo, headline de imaginação de uso, introdução curta, uma sequência editorial demonstrativa de quatro etapas, um pequeno cenário conceitual de uso e uma transição textual para o próximo estágio. A seção não possui CTA comercial e não reutiliza a demonstração de Marcos 4. O aviso de conteúdo ilustrativo/demonstrativo foi mantido.
+
+CONFIANÇA
+Alta quanto à função narrativa e à necessidade de avançar de benefício para experiência imaginável; média quanto à redação e à sequência proposta, que permanecem hipóteses sujeitas à validação do Analista e do proprietário.
+
+IMPACTO
+Aproxima a proposta da rotina imaginada de estudo, preparando a jornada para uma etapa posterior de consideração sem antecipar produto, preço ou decisão comercial.
 
 STATUS
 Implementada — aguardando auditoria.
