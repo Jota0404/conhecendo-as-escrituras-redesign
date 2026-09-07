@@ -50,7 +50,6 @@
     mobileNav.className = 'mobile-nav';
     mobileNav.setAttribute('aria-label', 'Navegação móvel');
     mobileNav.innerHTML = `
-      <a href="#como-funciona">Como funciona</a>
       <a href="#jornada">Jornada</a>
       <a href="#autor">Sobre o autor</a>
       <a href="#faq">FAQ</a>
