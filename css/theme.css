@@ -1,29 +1,48 @@
 :root{
-  --paper:#e8e2d7;
-  --cream:#f0ebe1;
-  --muted:#67645d;
-  --line:#d2cabd;
-  --price-surface:#f4efe5;
-  --accent-readable:#776115;
-  --ink-soft:#2b2c26;
+  /* Nova direção cromática — Azul Petróleo + Creme + Dourado */
+  --paper:#F3F0E7;
+  --cream:#FAF8F1;
+  --muted:#5F6768;
+  --line:#D8D5CB;
+  --price-surface:#F7F4EB;
+  --accent-readable:#8A6D18;
+  --ink-soft:#18343D;
+  --ink:#173E49;
+  --accent:#D4B13F;
+  --accent-dark:#8A6D18;
 }
 
-body{background:var(--paper);color:var(--ink);line-height:1.6}
-.site-header{background:rgba(232,226,215,.94);border-bottom-color:rgba(21,23,19,.10)}
+/* Base: creme quente como campo dominante; azul petróleo como estrutura e contraste. */
+body{
+  background:var(--paper);
+  color:var(--ink);
+  line-height:1.6;
+}
+
+.site-header{
+  background:rgba(243,240,231,.95);
+  border-bottom-color:rgba(23,62,73,.14);
+}
+
 .hero{background:var(--paper)}
 .section--light{background:var(--cream)}
-.section--soft{background:#e1dbcf}
-.transformation{background:#d5cec0}
-.proof-placeholder{background:#e3ddd2}
+.section--soft{background:#E7E3D8}
+.transformation{background:#DCD7C9}
+.proof-placeholder{background:#E8E4DA}
 
 /* Tipografia: hierarquia forte, leitura contínua e títulos equilibrados. */
-body,.button,.desktop-nav,.hero-lead,.section-lead,.journey-result p,.outcome-row p,.author-copy>p:not(.eyebrow):not(.author-role),.faq-list p{letter-spacing:normal}
-.hero h1,.section h2,.final-cta h2,.journey-title h3,.outcome-row strong,.faq-list summary,.method-step h3,.audience-list h3{font-weight:600;text-wrap:balance}
+body,.button,.desktop-nav,.hero-lead,.section-lead,.journey-result p,.outcome-row p,.author-copy>p:not(.eyebrow):not(.author-role),.faq-list p{
+  letter-spacing:normal
+}
+.hero h1,.section h2,.final-cta h2,.journey-title h3,.outcome-row strong,.faq-list summary,.method-step h3,.audience-list h3{
+  font-weight:600;
+  text-wrap:balance
+}
 .hero h1{letter-spacing:-.03em}
 .section h2{letter-spacing:-.028em;line-height:1.06}
 .hero-lead,.problem-content>p,.section-lead{line-height:1.65}
 
-/* O amarelo puro perde contraste sobre fundos claros; aqui usamos uma versão textual mais escura. */
+/* Dourado reservado para ênfase e ação; em texto claro usamos uma versão mais escura. */
 .hero h1 em{color:var(--accent-readable)}
 .perspective h2 em,.final-cta h2 em{color:var(--accent)}
 
@@ -39,53 +58,77 @@ body,.button,.desktop-nav,.hero-lead,.section-lead,.journey-result p,.outcome-ro
 .mobile-nav-toggle{min-width:44px;min-height:44px}
 :focus-visible{outline:3px solid var(--accent-readable);outline-offset:4px;border-radius:6px}
 
-/* Linhas e superfícies: menos contraste artificial, mantendo separação estrutural. */
-.check-list,.journey-list,.outcome-stack,.faq-list,.preview-points,.audience-list,.method-steps{border-color:var(--line)}
-.transform-card,.hero-card,.method-note,.proof-box,.price-option{box-shadow:none}
-.hero-card{border-color:rgba(21,23,19,.10)}
+/* Linhas e superfícies: separação estrutural sem excesso de contraste. */
+.check-list,.journey-list,.outcome-stack,.faq-list,.preview-points,.audience-list,.method-steps{
+  border-color:var(--line)
+}
+.transform-card,.hero-card,.method-note,.proof-box,.price-option{
+  box-shadow:none
+}
+.hero-card{border-color:rgba(23,62,73,.14)}
 
-/* Método: apresenta a lógica como conteúdo editorial, sem simular uma plataforma ou um diagrama abstrato. */
-.method-simple__intro{max-width:420px;margin:0;color:#6d695f;font-size:16px;line-height:1.65}
+/* Método: apresenta a lógica como conteúdo editorial, sem simular uma plataforma. */
+.method-simple__intro{max-width:420px;margin:0;color:#536165;font-size:16px;line-height:1.65}
 .method-steps{margin-top:52px;border-top:1px solid var(--line)}
 .method-step{display:grid;grid-template-columns:72px 1fr;gap:24px;padding:30px 0;border-bottom:1px solid var(--line)}
-.method-step>span{font-size:11px;letter-spacing:.13em;color:#8e8577;font-weight:800;padding-top:7px}
-.method-step p{margin:0 0 8px;text-transform:uppercase;letter-spacing:.10em;font-size:10px;color:#7f776a;font-weight:800}
+.method-step>span{font-size:11px;letter-spacing:.13em;color:#748287;font-weight:800;padding-top:7px}
+.method-step p{margin:0 0 8px;text-transform:uppercase;letter-spacing:.10em;font-size:10px;color:#68767A;font-weight:800}
 .method-step h3{margin:0;font-family:var(--serif);font-size:34px;line-height:1.08}
-.method-step small{display:block;max-width:700px;margin-top:10px;color:#67635b;font-size:14px;line-height:1.65}
-.method-step--accent{background:rgba(230,200,79,.16);margin-inline:-20px;padding-inline:20px;border-radius:18px;border-bottom-color:transparent}
+.method-step small{display:block;max-width:700px;margin-top:10px;color:#59676A;font-size:14px;line-height:1.65}
+.method-step--accent{background:rgba(212,177,63,.18);margin-inline:-20px;padding-inline:20px;border-radius:18px;border-bottom-color:transparent}
 .method-step--accent>span{color:var(--accent-readable)}
-.method-simple__note{margin:22px 0 0;color:#756f64;font-size:12px;line-height:1.5}
+.method-simple__note{margin:22px 0 0;color:#697477;font-size:12px;line-height:1.5}
 
-/* Qualificação: substitui a falsa prévia de plataforma por conteúdo útil para decisão. */
-.audience{background:#ddd6ca}
+/* Qualificação. */
+.audience{background:#E1DDD2}
 .audience-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:84px;align-items:start}
 .audience-grid .section-lead{margin-top:24px}
 .audience-list{border-top:1px solid var(--line)}
 .audience-list article{display:grid;grid-template-columns:54px 1fr;gap:18px;padding:26px 0;border-bottom:1px solid var(--line)}
-.audience-list article>span{font-size:11px;letter-spacing:.13em;color:#8d8476;font-weight:800;padding-top:4px}
+.audience-list article>span{font-size:11px;letter-spacing:.13em;color:#748287;font-weight:800;padding-top:4px}
 .audience-list h3{margin:0;font-family:var(--serif);font-size:28px;line-height:1.12}
-.audience-list p{margin:8px 0 0;color:#656158;font-size:14px;line-height:1.6;max-width:620px}
+.audience-list p{margin:8px 0 0;color:#586568;font-size:14px;line-height:1.6;max-width:620px}
 
 /* Identificador da foto do autor: fica dentro da imagem e deixa de parecer um botão solto. */
-.author-tag{right:16px;bottom:16px;padding:9px 12px;border-radius:8px;background:var(--accent);color:var(--ink);font-size:8px;font-weight:800;letter-spacing:.11em;box-shadow:0 8px 20px rgba(0,0,0,.18)}
+.author-tag{
+  right:16px;
+  bottom:16px;
+  padding:9px 12px;
+  border-radius:8px;
+  background:var(--accent);
+  color:var(--ink);
+  font-size:8px;
+  font-weight:800;
+  letter-spacing:.11em;
+  box-shadow:0 8px 20px rgba(23,62,73,.18)
+}
 .author-photo-wrap img{filter:saturate(.82) contrast(.96)}
 
 /* Preço: hierarquia clara entre as duas formas de pagamento. */
 .price-options{align-items:stretch}
-.price-option{min-width:0;padding:20px 18px;border:1px solid rgba(21,23,19,.12);border-radius:16px;background:var(--price-surface);color:var(--ink)}
-.price-option small{color:#69665f}
+.price-option{
+  min-width:0;
+  padding:20px 18px;
+  border:1px solid rgba(23,62,73,.14);
+  border-radius:16px;
+  background:var(--price-surface);
+  color:var(--ink)
+}
+.price-option small{color:#5D696B}
 .price-option strong{color:var(--ink)}
 .price-divider{align-self:center;white-space:nowrap}
-.price-option:hover{border-color:rgba(21,23,19,.22);box-shadow:0 10px 24px rgba(21,23,19,.08)}
+.price-option:hover{
+  border-color:rgba(23,62,73,.28);
+  box-shadow:0 10px 24px rgba(23,62,73,.09)
+}
 
 /* Contraste e legibilidade dos textos secundários. */
-.hero-lead,.section-lead,.problem-content>p,.outcome-row p,.journey-result p,.preview-points p,.audience-list p,.risk-inner>p,.faq-list p{color:#625f58}
-.section--ink .section-lead{color:#c0bdb3}
-.author-copy>p:not(.eyebrow):not(.author-role){color:#c4c1b8}
-.author-role{color:#b8b4aa}
-
-/* Links de texto mantêm affordance sem depender somente de cor. */
-.text-link:hover{text-decoration-thickness:2px}
+.hero-lead,.section-lead,.problem-content>p,.outcome-row p,.journey-result p,.preview-points p,.audience-list p,.risk-inner>p,.faq-list p{
+  color:#566568
+}
+.section--ink .section-lead{color:#D1D8D8}
+.author-copy>p:not(.eyebrow):not(.author-role){color:#D0D6D5}
+.author-role{color:#C2CDCC}
 
 /* Pequenos refinamentos de componentes. */
 .brand-copy strong{letter-spacing:-.01em}
@@ -95,7 +138,7 @@ body,.button,.desktop-nav,.hero-lead,.section-lead,.journey-result p,.outcome-ro
 html{scroll-padding-top:96px}
 section[id]{scroll-margin-top:96px}
 
-/* Hero simplificado: remove o elemento visual decorativo e conecta a proposta diretamente à dor. */
+/* Hero simplificado: conecta a proposta diretamente à dor. */
 .hero-grid{grid-template-columns:minmax(0,820px);gap:0}
 .hero-copy{max-width:800px}
 .hero-visual,.signal-strip{display:none}
